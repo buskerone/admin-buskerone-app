@@ -126,7 +126,7 @@ export default function Home() {
   )
 }
 
-export async function getStaticProps() {
+export async function getServerSideProps() {
   return {
     props: {}, // will be passed to the page component as props
   }
